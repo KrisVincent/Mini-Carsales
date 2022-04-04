@@ -1,0 +1,33 @@
+.Car-view{
+
+    border-radius: 25px;
+    border: 2px solid #2824ff;
+    padding: 20px;
+    min-height: 100px;
+    overflow: hidden;
+    margin: auto;
+    width: 70%;
+
+}
+
+
+.Car-view-data{
+    display: inline-block;
+    overflow: hidden;
+    margin: auto;
+    vertical-align: top; /* here */
+    padding: 20px;
+    width: 66%;
+}
+
+.Column {
+  
+    border: 2px solid #015ad6;
+
+
+}
+
+.Column:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(1px);
+}
